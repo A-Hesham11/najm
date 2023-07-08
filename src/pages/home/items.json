@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "image":"/images/fixed-car.svg",
+        "text":"صيانة السيارة",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "image":"/images/car.svg",
+        "text":"احقية خصم تامين السيارات",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "image":"/images/exclamation.svg",
+        "text":"بلاغ عن احتيال",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "image":"/images/accident.svg",
+        "text":"الابلاغ عن حادث",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "image":"/images/summary.svg",
+        "text":"ملخص تقييم الاضرار",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "image":"/images/exclamation.svg",
+        "text":"الابلاغ عن حادث",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "image":"/images/accident.svg",
+        "text":"بلاغ عن احتيال",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "image":"/images/fixed-car.svg",
+        "text":"صيانة السيارة",
+        "clicked": false
+    },
+    {
+        "id": 9,
+        "image":"/images/summary.svg",
+        "text":"ملخص تقييم الاضرار",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "image":"/images/car.svg",
+        "text":"احقية خصم تامين السيارات",
+        "clicked": false
+    }
+]

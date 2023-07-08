@@ -1,0 +1,110 @@
+.header {
+    background-color: var(--gray-color);
+    height: 106px;
+    box-shadow: 0px 4px 8px 0px #B5B5B540;
+}
+.header .logo-img {
+    height: 140px;
+}
+@media(max-width: 449px) {
+    .header .logo-img {
+        width: 80px;
+    }  
+    .header .nav-btn {
+        width: 55px !important;
+    }
+}
+.header .nav-btn {
+    border: 1px solid #E1E3E6;
+    box-shadow: 0px 4px 2px -2px #1B2E5E05;
+    width: 60px;
+    height: 48px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+.header .search input {
+    border-radius: 24px;
+    height: 24px;
+    border: none;
+    padding: 16px 14px 16px;
+    width: 100%;
+}
+.header .search input:focus {
+    outline: 2px solid #ddd;
+}
+.header .search input::placeholder {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #00000099;
+}
+.header .search img {
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.header .setting {
+    gap: 15px;
+}
+.header .user .user-text,
+.header .user span {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.header .user .user-text {
+    color: #000000DE;
+}
+.header .user span {
+    color: #00000099;
+}
+.nav-phone{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float: left;
+}
+@media(max-width: 992px) {
+    .search input {
+        background-color: #eaeaea;
+        padding: 20px;
+    }
+    .header .logo-img {
+        transition: 0s;
+    }
+    .nav-phone {
+        width: 100% !important;
+        height: 100vh !important;
+        position: absolute;
+        background-color: #fff;
+        top: 0;
+        transition: 0.3s;
+        align-items: flex-start ;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        padding-top: 215px;
+    }
+    .nav-phone .user,
+    .nav-phone .search,
+    .nav-phone .setting {
+        border-bottom: 1px solid #ddd;
+        padding: 25px;
+        width: 100% !important;
+    }
+    .nav-phone .search input {
+        width: 100% !important;
+        padding: 25px;
+    }
+    .header .search img {
+        left: 40px;
+    }
+}
+@media(max-width: 992px) {
+    .header .header-box {
+        padding: 0px 5px;
+    }
+}

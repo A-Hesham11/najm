@@ -1,0 +1,130 @@
+.dashboard ul,
+.dashboard .select {
+    display: grid; 
+    justify-content: center;
+    grid-template-columns: 24% 24% 24% 24%;
+    gap: 15px;
+}
+@media (max-width: 992px) {
+    .dashboard ul,
+    .dashboard .select {
+        grid-template-columns: 49% 49%;
+    }
+}
+@media (max-width: 767px) {
+    .dashboard ul,
+    .dashboard .select {
+        grid-template-columns: 98%;
+    }
+}
+.dashboard ul li {
+    height: 135px;
+    border-radius: 14px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 15px;
+}
+.dashboard ul li p {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 13px;
+}
+.dashboard ul li:first-child {
+    background-color: #FDBE7B;
+}
+.dashboard ul li:nth-child(2) {
+    background-color: #12AA77;
+}
+.dashboard ul li:nth-child(3) {
+    background-color: #FF6A6F;
+}
+.dashboard ul li:last-child {
+    background-color: #43A7D8;
+}
+.dashboard .select {
+    gap: 25px;
+    margin: 70px 15px;
+}
+@media (max-width: 767px) {
+    .dashboard .select div:not(.classify) .form-select {
+        margin-right: 21px;
+    }
+}
+.dashboard .select p {
+    font-size: 26px;
+    font-weight: 500;
+}
+.dashboard .select div span {
+    font-size: 20px;
+    font-weight: 500;
+    color: #00000078;
+}
+.form-select {
+    background-position: left 0.75rem center !important; 
+    padding: 0.375rem 0.75rem !important; 
+    background-color: #e7fff3 !important;
+}
+.form-select:focus {
+    box-shadow: 0px 0px 3px 1px #e7fff3 !important;
+    outline: none !important;
+}
+.dashboard table thead{
+    background-color: var(--main-color);
+    height: 70px;
+} 
+.dashboard table thead th,
+.dashboard table td {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+.dashboard table thead th{
+    background-color: var(--main-color);
+    color: #FFFFFF;
+}
+.dashboard table thead th:first-child {
+    width: 140px;
+}
+.dashboard table tbody {
+    height: 100px;
+    vertical-align: middle !important;
+}
+.dashboard table tbody th {
+    font-size: 32px;
+    font-weight: 500;
+}
+@media (max-width: 992px) {
+    .table-container  {
+        overflow-x: scroll;
+    }
+    table {
+        overflow-x: scroll;
+        min-width: 992px;
+    }
+    .dashboard table thead th,
+    .dashboard table td {
+        font-size: 20px;
+    }
+    .dashboard table tbody th {
+        font-size: 26px;
+    }
+    .dashboard .table-container::-webkit-scrollbar {
+        height: 12px;
+    }
+    .dashboard .table-container::-webkit-scrollbar-track {
+        background-color: #f0f3f5;
+        box-shadow: 0px 0px 10px #ddd inset;
+        border-radius: 10px;
+    }
+    .dashboard .table-container::-webkit-scrollbar-thumb {
+        background-color: var(--main-color);
+        border-radius: 10px;
+    }
+    .dashboard .table-container::-webkit-scrollbar-thumb:hover  {
+        background-color: #33835cd6;
+    }
+}
+.dashboard table tbody td img.active {
+    filter: invert(43%) sepia(59%) saturate(465%) hue-rotate(154deg) brightness(96%) contrast(95%);
+}
