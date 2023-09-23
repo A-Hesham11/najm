@@ -2,7 +2,9 @@ import React from 'react'
 
 const TrainingGit = () => {
   return (
-    <div>TrainingGit</div>
+    <div>
+      <h2>Najm</h2>
+    </div>
   )
 }
 
